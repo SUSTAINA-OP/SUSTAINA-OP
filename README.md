@@ -7,6 +7,7 @@
   <br>
   We aim to develop a robust robot system that helps the experiment on the real robot.
   <br>
+  <img src="https://user-images.githubusercontent.com/71181654/116025152-ca9e4600-a68a-11eb-8e9d-8b205aceadbc.jpg" width="640">
   <br>
   <img src="https://user-images.githubusercontent.com/53966390/115735718-a9f19a00-a3c5-11eb-8864-8f60246a40c7.png" width="640">
   <br>
