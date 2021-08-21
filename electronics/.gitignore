@@ -1,0 +1,16 @@
+# Ignore list for Eagle CAD Projects
+
+# Backup files
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+
+# Autorouter files
+*.pro
+*.job
+
+# file locks introduced since 7.x
+*.lck
