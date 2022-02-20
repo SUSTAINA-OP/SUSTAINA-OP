@@ -1,0 +1,44 @@
+Partlist exported from C:/Users/Masato/Desktop/Ver2.1/MainBorad_ver2_1.sch at 2022/02/20 3:17
+
+Qty Value               Device              Package            Parts                                                              Description                POPULARITY SPICEPREFIX
+11                      LEDSML0603          SML0603            LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11 LED                        17                    
+1   0.01u               C-USC0603           C0603              C14                                                                CAPACITOR, American symbol 37         C          
+5   0.1u                C-USC0603           C0603              C5, C6, C7, C8, C10                                                CAPACITOR, American symbol 37         C          
+2   10k                 R-US_R0603          R0603              R4, R5                                                             RESISTOR, American symbol  77         R          
+4   10u                 C-USC0603           C0603              C11, C12, C13, C22                                                 CAPACITOR, American symbol 37         C          
+1   120                 R-US_R0603          R0603              R13                                                                RESISTOR, American symbol  77         R          
+9   1k                  R-US_R0603          R0603              R6, R7, R8, R9, R17, R19, R21, R22, R23                            RESISTOR, American symbol  77         R          
+2   1u                  C-USC0603           C0603              C17, C20                                                           CAPACITOR, American symbol 37         C          
+1   2.7k                R-US_R0603          R0603              R15                                                                RESISTOR, American symbol  77         R          
+2   22p                 C-USC0603           C0603              C15, C16                                                           CAPACITOR, American symbol 37         C          
+1   22u                 C-USC2012           C2012              C21                                                                CAPACITOR, American symbol 0          C          
+4   2k                  R-US_R0603          R0603              R1, R2, R18, R20                                                   RESISTOR, American symbol  77         R          
+1   33                  R-US_R0603          R0603              R11                                                                RESISTOR, American symbol  77         R          
+4   3557-2              3557-2              3557-2             F1, F2, F3, F4                                                                                                      
+4   35PFV150M8X10.5     35PFV150M8X10.5     35PFV150M8X10.5    C1, C2, C3, C4                                                                                                      
+1   4.7k                R-US_R0603          R0603              R10                                                                RESISTOR, American symbol  77         R          
+1   4.7u                C-USC0603           C0603              C9                                                                 CAPACITOR, American symbol 37         C          
+1   470k                R-US_R0603          R0603              R3                                                                 RESISTOR, American symbol  77         R          
+2   680                 R-US_R0603          R0603              R12, R14                                                           RESISTOR, American symbol  77         R          
+1   8.66k               R-US_R0603          R0603              R16                                                                RESISTOR, American symbol  77         R          
+5   B2B-XH-A            B2B-XH-A            B2B-XH-A           CH3, CH4, CH5, CH6, CH7                                                                                             
+2   BLM18SD220SN1D      BLM18SD220SN1D      BLM18SD220SN1D     FL1, FL2                                                                                                            
+2   CDRH127/LDNP-470MC  CDRH127/LDNP-470MC  CDRH127/LDNP       L1, L2                                                                                                              
+8   CG0603MLC-05E       CG0603MLC-05E       CG0603MLC-05E      D2, D3, D4, D5, D6, D7, D8, D9                                                                                      
+1   DFE201210S-2R2M     DFE201210S-2R2M     DFE201210S         L3                                                                                                                  
+1   FA238V_12.000000MHZ FA238V_12.000000MHZ FA238V             CR1                                                                                                                 
+1   FE1.1S              FE1.1S              FE1.1S             IC1                                                                                                                 
+1   FT232RL             FT232RL             FT232RL            IC2                                                                                                                 
+1   LTC1480             LTC1480             LTC1480            IC3                                                                                                                 
+1   LTC4412             LTC4412             LTC4412            IC4                                                                                                                 
+1   MF-MSMF010          MF-MSMF010          MF-MSMF010         F5                                                                                                                  
+1   MF-MSMF050          MF-MSMF050          MF-MSMF050         F6                                                                                                                  
+1   MF-MSMF050/30X      MF-MSMF050/30X      MF-MSMF050         F7                                                                                                                  
+1   MINI_USB_5P_B_TYPE  MINI_USB_5P_B_TYPE  MINI_USB_5P_B_TYPE USB1                                                                                                                
+6   S4B-XH-A            S4B-XH-A            S4B-XH-A           CH8, CH9, CH10, CH11, CH12, CH13                                                                                    
+5   SQM40P10-40L_GE3    SQM40P10-40L_GE3    TO-252-3           Q1, Q2, Q3, Q4, Q5                                                                                                  
+1   SS34FA              SS34FA              SS34FA             D1                                                                                                                  
+1   USB_4P_A_TYPE_X2    USB_4P_A_TYPE_X2    USB_4P_A_TYPE_X2   USB2                                                                                                                
+2   UWT1E221MNL1GS      UWT1E221MNL1GS      UWT1E221MNL1GS     C18, C19                                                                                                            
+1   XL6009E1            XL6009E1            TO263-5L           VR1                                                                                                                 
+2   XT60PT-M            XT60PT-M            XT60PT-M           CH1, CH2                                                                                                            
