@@ -1,3 +1,8 @@
 # Inventor cash files
 *.lck
 *OldVersions
+
+# Eagle cash files
+*.l#*
+*.b#*
+*.s#*
