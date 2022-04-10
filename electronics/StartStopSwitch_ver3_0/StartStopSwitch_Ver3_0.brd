@@ -87,10 +87,10 @@
 <wire x1="2.08" y1="-9.35" x2="20.78" y2="-9.35" width="0.254" layer="51"/>
 <wire x1="20.78" y1="-9.35" x2="20.78" y2="9.35" width="0.254" layer="51"/>
 <wire x1="20.78" y1="9.35" x2="2.08" y2="9.35" width="0.254" layer="51"/>
-<text x="0" y="0" size="1.27" layer="22" ratio="10" rot="MR180" align="center">RoboCup Soccer Humanoid Team
-CIT Brains http://www.cit-brains.net/
+<text x="0" y="0" size="1.27" layer="22" ratio="10" rot="MR180" align="center">RoboCup Soccer Humanoid Team CIT Brains 
+http://www.cit-brains.net/
 SUSTAINA StartStopSwitch Ver3.0
-Designed by Masato Kubotera on April 1, 2022.</text>
+Designed by Masato Kubotera on April 10, 2022.</text>
 </plain>
 <libraries>
 <library name="NKK Switches">
@@ -346,7 +346,7 @@ design rules under a new name.</description>
 <element name="S1" library="NKK Switches" package="JF15SP1" value="JF15SP1F" x="-11.43" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="-11.43" y="10.16" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="U$1" library="Arduino" package="PRO_MICRO_SMD" value="PRO_MICRO_SMD" x="2.54" y="0" smashed="yes" rot="MR270">
+<element name="M1" library="Arduino" package="PRO_MICRO_SMD" value="PRO_MICRO_SMD" x="2.54" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-16.51" y="0" size="1" layer="26" ratio="10" rot="MR270" align="center"/>
 </element>
 </elements>
@@ -354,9 +354,10 @@ design rules under a new name.</description>
 <signal name="BUTTON0">
 <contactref element="S1" pad="2"/>
 <contactref element="S1" pad="1"/>
-<contactref element="U$1" pad="1"/>
-<wire x1="-17.78" y1="5.08" x2="-13.94" y2="8.92" width="0.254" layer="16"/>
-<wire x1="-13.94" y1="8.92" x2="-11.43" y2="8.92" width="0.254" layer="16"/>
+<contactref element="M1" pad="1"/>
+<wire x1="-15.845" y1="8.92" x2="-17.78" y2="6.985" width="0.254" layer="16"/>
+<wire x1="-17.78" y1="5.08" x2="-17.78" y2="6.985" width="0.254" layer="16"/>
+<wire x1="-15.845" y1="8.92" x2="-11.43" y2="8.92" width="0.254" layer="16"/>
 <wire x1="-9.7438125" y1="5.08" x2="-11.43" y2="6.7661875" width="0.254" layer="16"/>
 <wire x1="-11.43" y1="8.92" x2="-11.43" y2="6.7661875" width="0.254" layer="16"/>
 <wire x1="-9.7438125" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="16"/>
@@ -364,7 +365,7 @@ design rules under a new name.</description>
 <signal name="BUTTON1">
 <contactref element="S2" pad="2"/>
 <contactref element="S2" pad="1"/>
-<contactref element="U$1" pad="2"/>
+<contactref element="M1" pad="2"/>
 <wire x1="-8.4738125" y1="6.35" x2="-8.89" y2="6.7661875" width="0.254" layer="16"/>
 <wire x1="-8.89" y1="8.92" x2="-8.89" y2="6.7661875" width="0.254" layer="16"/>
 <wire x1="-2.01394375" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="16"/>
@@ -377,9 +378,9 @@ design rules under a new name.</description>
 <contactref element="S1" pad="4"/>
 <contactref element="S2" pad="3"/>
 <contactref element="S2" pad="4"/>
-<contactref element="U$1" pad="3"/>
-<contactref element="U$1" pad="4"/>
-<contactref element="U$1" pad="23"/>
+<contactref element="M1" pad="3"/>
+<contactref element="M1" pad="4"/>
+<contactref element="M1" pad="23"/>
 <polygon width="0.254" layer="1">
 <vertex x="-31.75" y="12.7"/>
 <vertex x="-31.75" y="-12.7"/>
@@ -393,9 +394,6 @@ design rules under a new name.</description>
 <vertex x="31.75" y="12.7"/>
 </polygon>
 </signal>
-<signal name="+5V">
-<contactref element="U$1" pad="21"/>
-</signal>
 <signal name="SCREW_HOLE1">
 <via x="-25" y="0" extent="1-16" drill="3.2" diameter="5.5" locked="yes"/>
 </signal>
@@ -404,7 +402,7 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
