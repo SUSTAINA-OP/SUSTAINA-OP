@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="FT4232H_MINI_MODULE">
+<wire x1="-14.575" y1="19.76" x2="-14.575" y2="-15.82" width="0.127" layer="21"/>
+<wire x1="-14.575" y1="-15.82" x2="14.575" y2="-15.82" width="0.127" layer="21"/>
+<wire x1="14.575" y1="-15.82" x2="14.575" y2="19.76" width="0.127" layer="21"/>
+<wire x1="14.575" y1="19.76" x2="3.875" y2="19.76" width="0.127" layer="21"/>
+<wire x1="3.875" y1="19.76" x2="-3.825" y2="19.76" width="0.127" layer="21"/>
+<wire x1="-3.825" y1="19.76" x2="-14.575" y2="19.76" width="0.127" layer="21"/>
+<wire x1="-3.825" y1="19.76" x2="-3.825" y2="21.69" width="0.127" layer="21"/>
+<wire x1="-3.825" y1="21.69" x2="3.875" y2="21.69" width="0.127" layer="21"/>
+<wire x1="3.875" y1="21.69" x2="3.875" y2="19.76" width="0.127" layer="21"/>
+<pad name="CN2-1" x="-12.715" y="16.51" drill="1" shape="square"/>
+<pad name="CN2-2" x="-10.175" y="16.51" drill="1"/>
+<pad name="CN2-3" x="-12.715" y="13.97" drill="1"/>
+<pad name="CN2-4" x="-10.175" y="13.97" drill="1"/>
+<pad name="CN2-5" x="-12.715" y="11.43" drill="1"/>
+<pad name="CN2-6" x="-10.175" y="11.43" drill="1"/>
+<pad name="CN2-7" x="-12.715" y="8.89" drill="1"/>
+<pad name="CN2-8" x="-10.175" y="8.89" drill="1"/>
+<pad name="CN2-9" x="-12.715" y="6.35" drill="1"/>
+<pad name="CN2-10" x="-10.175" y="6.35" drill="1"/>
+<pad name="CN2-11" x="-12.715" y="3.81" drill="1"/>
+<pad name="CN2-12" x="-10.175" y="3.81" drill="1"/>
+<pad name="CN2-13" x="-12.715" y="1.27" drill="1"/>
+<pad name="CN2-14" x="-10.175" y="1.27" drill="1"/>
+<pad name="CN2-15" x="-12.715" y="-1.27" drill="1"/>
+<pad name="CN2-16" x="-10.175" y="-1.27" drill="1"/>
+<pad name="CN2-17" x="-12.715" y="-3.81" drill="1"/>
+<pad name="CN2-18" x="-10.175" y="-3.81" drill="1"/>
+<pad name="CN2-19" x="-12.715" y="-6.35" drill="1"/>
+<pad name="CN2-20" x="-10.175" y="-6.35" drill="1"/>
+<pad name="CN2-21" x="-12.715" y="-8.89" drill="1"/>
+<pad name="CN2-22" x="-10.175" y="-8.89" drill="1"/>
+<pad name="CN2-23" x="-12.715" y="-11.43" drill="1"/>
+<pad name="CN2-24" x="-10.175" y="-11.43" drill="1"/>
+<pad name="CN2-25" x="-12.715" y="-13.97" drill="1"/>
+<pad name="CN2-26" x="-10.175" y="-13.97" drill="1"/>
+<pad name="CN3-1" x="10.175" y="16.51" drill="1" shape="square"/>
+<pad name="CN3-2" x="12.715" y="16.5" drill="1"/>
+<pad name="CN3-3" x="10.175" y="13.97" drill="1"/>
+<pad name="CN3-4" x="12.715" y="13.97" drill="1"/>
+<pad name="CN3-5" x="10.175" y="11.43" drill="1"/>
+<pad name="CN3-6" x="12.715" y="11.43" drill="1"/>
+<pad name="CN3-7" x="10.175" y="8.89" drill="1"/>
+<pad name="CN3-8" x="12.715" y="8.89" drill="1"/>
+<pad name="CN3-9" x="10.175" y="6.35" drill="1"/>
+<pad name="CN3-10" x="12.715" y="6.35" drill="1"/>
+<pad name="CN3-11" x="10.175" y="3.81" drill="1"/>
+<pad name="CN3-12" x="12.715" y="3.81" drill="1"/>
+<pad name="CN3-13" x="10.175" y="1.27" drill="1"/>
+<pad name="CN3-14" x="12.715" y="1.27" drill="1"/>
+<pad name="CN3-15" x="10.175" y="-1.27" drill="1"/>
+<pad name="CN3-16" x="12.715" y="-1.27" drill="1"/>
+<pad name="CN3-17" x="10.175" y="-3.81" drill="1"/>
+<pad name="CN3-18" x="12.715" y="-3.81" drill="1"/>
+<pad name="CN3-19" x="10.175" y="-6.35" drill="1"/>
+<pad name="CN3-20" x="12.715" y="-6.35" drill="1"/>
+<pad name="CN3-21" x="10.175" y="-8.89" drill="1"/>
+<pad name="CN3-22" x="12.715" y="-8.89" drill="1"/>
+<pad name="CN3-23" x="10.175" y="-11.43" drill="1"/>
+<pad name="CN3-24" x="12.715" y="-11.43" drill="1"/>
+<pad name="CN3-25" x="10.175" y="-13.97" drill="1"/>
+<pad name="CN3-26" x="12.715" y="-13.97" drill="1"/>
+<text x="0" y="22.86" size="1" layer="25" ratio="10" align="center">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="FT4232H_MINI_MODULE">
+<wire x1="-10.16" y1="45.72" x2="-10.16" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-45.72" x2="10.16" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-45.72" x2="10.16" y2="45.72" width="0.254" layer="94"/>
+<wire x1="10.16" y1="45.72" x2="-10.16" y2="45.72" width="0.254" layer="94"/>
+<pin name="AD0" x="15.24" y="43.18" length="middle" rot="R180"/>
+<pin name="AD1" x="15.24" y="40.64" length="middle" rot="R180"/>
+<pin name="AD2" x="15.24" y="38.1" length="middle" rot="R180"/>
+<pin name="AD3" x="15.24" y="35.56" length="middle" rot="R180"/>
+<pin name="AD4" x="15.24" y="33.02" length="middle" rot="R180"/>
+<pin name="AD5" x="15.24" y="30.48" length="middle" rot="R180"/>
+<pin name="AD6" x="15.24" y="27.94" length="middle" rot="R180"/>
+<pin name="AD7" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="BD0" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="BD1" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="BD2" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="BD3" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="BD4" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="BD5" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="BD6" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="BD7" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="CD0" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="CD1" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="CD2" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="CD3" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="CD4" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="CD5" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="CD6" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="CD7" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="CLK" x="-15.24" y="-22.86" length="middle"/>
+<pin name="CS" x="-15.24" y="-17.78" length="middle"/>
+<pin name="DATA" x="-15.24" y="-27.94" length="middle"/>
+<pin name="DD0" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<pin name="DD1" x="15.24" y="-27.94" length="middle" rot="R180"/>
+<pin name="DD2" x="15.24" y="-30.48" length="middle" rot="R180"/>
+<pin name="DD3" x="15.24" y="-33.02" length="middle" rot="R180"/>
+<pin name="DD4" x="15.24" y="-35.56" length="middle" rot="R180"/>
+<pin name="DD5" x="15.24" y="-38.1" length="middle" rot="R180"/>
+<pin name="DD6" x="15.24" y="-40.64" length="middle" rot="R180"/>
+<pin name="DD7" x="15.24" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND_1" x="-15.24" y="30.48" length="middle"/>
+<pin name="GND_2" x="-15.24" y="27.94" length="middle"/>
+<pin name="GND_3" x="-15.24" y="25.4" length="middle"/>
+<pin name="GND_4" x="-15.24" y="20.32" length="middle"/>
+<pin name="GND_5" x="-15.24" y="17.78" length="middle"/>
+<pin name="PWREN#" x="-15.24" y="-12.7" length="middle"/>
+<pin name="RESET#" x="-15.24" y="-2.54" length="middle"/>
+<pin name="SUSPEND#" x="-15.24" y="-7.62" length="middle"/>
+<pin name="VBUS" x="-15.24" y="10.16" length="middle"/>
+<pin name="VCC" x="-15.24" y="5.08" length="middle"/>
+<pin name="VCC3V3_1" x="-15.24" y="43.18" length="middle"/>
+<pin name="VCC3V3_2" x="-15.24" y="40.64" length="middle"/>
+<pin name="VCC3V3_3" x="-15.24" y="38.1" length="middle"/>
+<pin name="VIO_1" x="-15.24" y="-35.56" length="middle"/>
+<pin name="VIO_2" x="-15.24" y="-38.1" length="middle"/>
+<pin name="VIO_3" x="-15.24" y="-40.64" length="middle"/>
+<pin name="VIO_4" x="-15.24" y="-43.18" length="middle"/>
+<text x="0" y="46.99" size="1" layer="97" ratio="10" align="center">FT4232H MINI MODULE</text>
+<text x="0" y="48.26" size="1" layer="95" ratio="10" align="center">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FT4232H_MINI_MODULE" prefix="M">
+<gates>
+<gate name="G$1" symbol="FT4232H_MINI_MODULE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FT4232H_MINI_MODULE">
+<connects>
+<connect gate="G$1" pin="AD0" pad="CN2-7"/>
+<connect gate="G$1" pin="AD1" pad="CN2-10"/>
+<connect gate="G$1" pin="AD2" pad="CN2-9"/>
+<connect gate="G$1" pin="AD3" pad="CN2-12"/>
+<connect gate="G$1" pin="AD4" pad="CN2-14"/>
+<connect gate="G$1" pin="AD5" pad="CN2-13"/>
+<connect gate="G$1" pin="AD6" pad="CN2-16"/>
+<connect gate="G$1" pin="AD7" pad="CN2-15"/>
+<connect gate="G$1" pin="BD0" pad="CN2-18"/>
+<connect gate="G$1" pin="BD1" pad="CN2-17"/>
+<connect gate="G$1" pin="BD2" pad="CN2-20"/>
+<connect gate="G$1" pin="BD3" pad="CN2-19"/>
+<connect gate="G$1" pin="BD4" pad="CN2-22"/>
+<connect gate="G$1" pin="BD5" pad="CN2-24"/>
+<connect gate="G$1" pin="BD6" pad="CN2-23"/>
+<connect gate="G$1" pin="BD7" pad="CN2-26"/>
+<connect gate="G$1" pin="CD0" pad="CN3-26"/>
+<connect gate="G$1" pin="CD1" pad="CN3-25"/>
+<connect gate="G$1" pin="CD2" pad="CN3-24"/>
+<connect gate="G$1" pin="CD3" pad="CN3-23"/>
+<connect gate="G$1" pin="CD4" pad="CN3-21"/>
+<connect gate="G$1" pin="CD5" pad="CN3-20"/>
+<connect gate="G$1" pin="CD6" pad="CN3-19"/>
+<connect gate="G$1" pin="CD7" pad="CN3-18"/>
+<connect gate="G$1" pin="CLK" pad="CN3-6"/>
+<connect gate="G$1" pin="CS" pad="CN3-5"/>
+<connect gate="G$1" pin="DATA" pad="CN3-7"/>
+<connect gate="G$1" pin="DD0" pad="CN3-17"/>
+<connect gate="G$1" pin="DD1" pad="CN3-16"/>
+<connect gate="G$1" pin="DD2" pad="CN3-15"/>
+<connect gate="G$1" pin="DD3" pad="CN3-14"/>
+<connect gate="G$1" pin="DD4" pad="CN3-13"/>
+<connect gate="G$1" pin="DD5" pad="CN3-11"/>
+<connect gate="G$1" pin="DD6" pad="CN3-10"/>
+<connect gate="G$1" pin="DD7" pad="CN3-9"/>
+<connect gate="G$1" pin="GND_1" pad="CN2-2"/>
+<connect gate="G$1" pin="GND_2" pad="CN2-4"/>
+<connect gate="G$1" pin="GND_3" pad="CN2-6"/>
+<connect gate="G$1" pin="GND_4" pad="CN3-2"/>
+<connect gate="G$1" pin="GND_5" pad="CN3-4"/>
+<connect gate="G$1" pin="PWREN#" pad="CN3-8"/>
+<connect gate="G$1" pin="RESET#" pad="CN2-8"/>
+<connect gate="G$1" pin="SUSPEND#" pad="CN2-25"/>
+<connect gate="G$1" pin="VBUS" pad="CN3-1"/>
+<connect gate="G$1" pin="VCC" pad="CN3-3"/>
+<connect gate="G$1" pin="VCC3V3_1" pad="CN2-1"/>
+<connect gate="G$1" pin="VCC3V3_2" pad="CN2-3"/>
+<connect gate="G$1" pin="VCC3V3_3" pad="CN2-5"/>
+<connect gate="G$1" pin="VIO_1" pad="CN2-11"/>
+<connect gate="G$1" pin="VIO_2" pad="CN2-21"/>
+<connect gate="G$1" pin="VIO_3" pad="CN3-12"/>
+<connect gate="G$1" pin="VIO_4" pad="CN3-22"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
