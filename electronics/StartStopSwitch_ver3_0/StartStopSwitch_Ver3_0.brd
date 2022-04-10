@@ -91,6 +91,10 @@
 http://www.cit-brains.net/
 SUSTAINA StartStopSwitch Ver3.0
 Designed by Masato Kubotera on April 10, 2022.</text>
+<dimension x1="-29" y1="-11.25" x2="29" y2="-11.25" x3="0" y3="-15" textsize="1.778" layer="48"/>
+<dimension x1="29" y1="-11.25" x2="29" y2="11.25" x3="33.02" y3="0" textsize="1.778" layer="48"/>
+<dimension x1="25" y1="0" x2="-25" y2="0" x3="0" y3="15" textsize="1.778" layer="48"/>
+<dimension x1="-25" y1="11.25" x2="-25" y2="0" x3="-35.8776875" y3="5.625" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="NKK Switches">
