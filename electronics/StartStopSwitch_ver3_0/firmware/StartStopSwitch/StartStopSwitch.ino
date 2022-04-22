@@ -4,8 +4,8 @@ Joystick_ Joystick;
 
 void setup() {
   // Initialize Button Pins
-  pinMode(9, INPUT_PULLUP);
-  pinMode(10, INPUT_PULLUP);
+  pinMode(0, INPUT_PULLUP);
+  pinMode(1, INPUT_PULLUP);
 
   // Initialize Joystick Library
   Joystick.begin();
