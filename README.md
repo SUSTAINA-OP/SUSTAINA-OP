@@ -1,13 +1,36 @@
-<h1 align="center">
-  SUSTAINA-OP
-</h1>
+<h1 align="center">SUSTAINA-OP</h1>
 
 <p align="center">
-  We are developing an open platform humanoid robot for the RoboCup Humanoid League.
-  <br>
-  We aim to develop a robust robot system that helps the experiment on the real robot.
-  <br>
-    <img src="https://user-images.githubusercontent.com/53966390/156026326-db04d9be-8325-4d03-af49-cf6ed6afe7d8.png" width="640px">
-  <br>
-    SUSTAINA-OP prototype 2022.2.16
-</p>
+  
+  <img src="https://user-images.githubusercontent.com/53966390/172021838-eb6a5b7e-46d2-4717-8658-4c5b5a77cd64.JPG" width="640px">
+</P>
+
+<p align="center">
+  SUSTAINA-OP prototype
+</P>
+
+<p align="center">
+  Photographed on 19.March.2022
+</P>
+
+<h1>What is SUSTAINA-OP?</h1>
+
+SUSTAINA-OP is the 6th generation kid-sized autonomous mobile robot for RoboCup Humanoid Leadge developed at CIT Brains.
+
+This robot is the successor to GankenKun, the 5th generation robot being developed for RoBoCup 2022 starting in 2021.
+
+The robot is being developed with two main objectives in mind.
+
+1. The robot should have high rigidity and durability and be difficult to break.
+
+2. The robot should be easy to manufacture and maintain for long-term use.
+
+Information about SUSTAINA can be found on the [wiki](https://github.com/citbrains/SUSTAINA-OP/wiki).
+
+<h1>License</h1>
+
+SUSTAINA-OP is provided under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Examples of attribution : <code>"SUSTAINA-OP" by [Masato Kubotera](https://github.com/MasatoKubotera), [CIT Brains](https://github.com/citbrains) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</code>
+
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="320px">
