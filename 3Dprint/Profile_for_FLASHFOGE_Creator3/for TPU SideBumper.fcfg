@@ -1,3 +1,10 @@
+[Custom]
+machineId=12
+nozzleSize=@Variant(\0\0\0\x87>\xcc\xcc\xcd)
+filamentSizes0=@Variant(\0\0\0\x87?\xe0\0\0)
+filamentSizes1=@Variant(\0\0\0\x87?\xe0\0\0)
+profileName=for TPU SideBumper
+
 [General]
 extruderTemp0=@Variant(\0\0\0\x87\x43\\\0\0)
 extruderTemp1=@Variant(\0\0\0\x87\x43\\\0\0)
@@ -159,10 +166,3 @@ zHopHeight=@Variant(\0\0\0\x87>L\xcc\xcd)
 zHopMinDist=@Variant(\0\0\0\x87?\x80\0\0)
 layerPauses=[]
 sequentialPrinting=true
-
-[Custom]
-machineId=12
-nozzleSize=@Variant(\0\0\0\x87>\xcc\xcc\xcd)
-filamentSizes0=@Variant(\0\0\0\x87?\xe0\0\0)
-filamentSizes1=@Variant(\0\0\0\x87?\xe0\0\0)
-profileName=TPU^SUSTAINA-OP-Side
