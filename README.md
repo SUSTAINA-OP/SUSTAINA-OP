@@ -19,6 +19,8 @@ SUSTAINA-OP is the 6th generation kid-sized autonomous mobile robot for RoboCup 
 
 This robot is the successor to GankenKun, the 5th generation robot being developed for RoBoCup 2022 starting in 2021.
 
+Click [here](https://github.com/citbrains/OpenPlatform) for Gankenkun's open platform.
+
 The robot is being developed with two main objectives in mind.
 
 1. The robot should have high rigidity and durability and be difficult to break.
