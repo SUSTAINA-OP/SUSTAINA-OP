@@ -4,13 +4,13 @@ Joystick_ Joystick;
 
 /*
  * The correspondence between physical buttons and output buttons is as follows.
- * button1 : Stop Button  / pin num : 0 / int.2
- * button2 : Start Button / pin num : 1 / int.3
+ * stop_button : Stop Button  / pin num : 0 / int.2
+ * start_button : Start Button / pin num : 1 / int.3
  */
 
 // button state 0: release ,1:press
-volatile int button1_state = 0;
-volatile int button2_state = 0;
+volatile int stop_button_state = 0;
+volatile int start_button_state = 0;
 
 void setup() {
   // Initialize Button Pins
@@ -21,8 +21,8 @@ void setup() {
   Joystick.begin();
 
   // Initialize external interrupts
-  attachInterrupt(2, button1_press, FALLING); // pin num 0 -> int.2 // Stop
-  attachInterrupt(3, button2_press, FALLING); // pin num 1 -> int.3 // Start
+  attachInterrupt(2, stop_button_press, FALLING); // pin num 0 -> int.2 // Stop
+  attachInterrupt(3, start_button_press, FALLING); // pin num 1 -> int.3 // Start
   /*
    * Refer to the following URL for attachInterrupt.
    * https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
@@ -30,23 +30,23 @@ void setup() {
 }
 
 void loop() {
-  if(button1_state == 1 && digitalRead(0) == HIGH){
+  if(stop_button_state == 1 && PIND&_BV(2)){
     Joystick.setButton(1, false);
-    button1_state = 0;
+    stop_button_state = 0;
   }     
   
-  if(button2_state == 1 && digitalRead(1) == HIGH){
+  if(start_button_state == 1 && PIND&_BV(3)){
     Joystick.setButton(2, false);
-    button2_state = 0;
+    start_button_state = 0;
   }
 }
 
-void button1_press(){
+void stop_button_press(){
   Joystick.setButton(1, true);
-  button1_state = 1;
+  stop_button_state = 1;
 }
 
-void button2_press(){
+void start_button_press(){
   Joystick.setButton(2, true);
-  button2_state = 1;
+  start_button_state = 1;
 }
