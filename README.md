@@ -36,3 +36,8 @@ SUSTAINA-OP is provided under [CC BY-NC-SA 4.0](https://creativecommons.org/lice
 Examples of attribution : <code>"SUSTAINA-OP" by [Masato Kubotera](https://github.com/MasatoKubotera), [CIT Brains](https://github.com/citbrains) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</code>
 
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="320px">
+
+
+<h1>Browse 3D model</h1>
+
+Click [here](https://citbrains.github.io/SUSTAINA-OP/autodesk_viewer.html) to access the shared view in Autodesk Viewer.
