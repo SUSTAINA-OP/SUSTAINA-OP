@@ -66,5 +66,7 @@ Examples of attribution : <code>"SUSTAINA-OP" by <a href="https://github.com/Mas
 </h1>
 
 <p>
-Click <a href="https://citbrains.github.io/SUSTAINA-OP/autodesk_viewer.html">here</a> to access the shared view in Autodesk Viewer.
+View and manipulate 3D models in your browser using Autodesk Viewer.
+
+Click <a href="https://citbrains.github.io/SUSTAINA-OP/autodesk_viewer.html">here</a> to access.
 </p>
