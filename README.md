@@ -45,7 +45,7 @@ If you have any questions, please contact the designer, Masato Kubodera, via E-m
 
 </p>
 
-<p><small>*1 E-mail : masatokubotera06@yahoo.co.jp</small></p>
+<p><small>*1 E-mail : <a href="mailto:masatokubotera06@yahoo.co.jp?subject=Questions about SUSTAINA-OP">masatokubotera06@yahoo.co.jp</a></small></p>
 
 <p><small>*2 Twitter : <a href="https://twitter.com/CreateRoboCup">@CreateroboCup</a></small></p>
 
