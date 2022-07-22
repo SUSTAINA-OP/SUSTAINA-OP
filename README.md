@@ -3,7 +3,14 @@
 </h1>
 
 <p align="center">
-  Designed by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a>
+  <a href="https://github.com/citbrains/SUSTAINA-OP/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg"></a>
+  <a href="https://github.com/citbrains/SUSTAINA-OP/issues"><img src="https://img.shields.io/github/issues-raw/citbrains/SUSTAINA-OP?color=brightgreen"></a>
+  <a href="https://github.com/citbrains/SUSTAINA-OP/issues"><img src="https://img.shields.io/github/issues-closed-raw/citbrains/SUSTAINA-OP?color=red"></a>
+</P>
+<p align="center">
+  Designed by Masato Kubotera
+  <a href="https://github.com/MasatoKubotera"><img src="https://img.shields.io/github/followers/MasatoKubotera?label=&style=social"></a>
+  <a href="https://twitter.com/CreateRoboCup"><img src="https://img.shields.io/twitter/follow/CreateRoboCup?label=&style=social"></a>
 </P>
 
 <p align="center">
@@ -47,7 +54,7 @@ If you have any questions, please contact the designer, Masato Kubodera, via E-m
 
 <p><small>*1 E-mail : <a href="mailto:masatokubotera06@yahoo.co.jp?subject=Questions about SUSTAINA-OP">masatokubotera06@yahoo.co.jp</a></small></p>
 
-<p><small>*2 Twitter : <a href="https://twitter.com/CreateRoboCup">@CreateroboCup</a></small></p>
+<p><small>*2 Twitter : </a><a href="https://twitter.com/CreateRoboCup"><img src="https://img.shields.io/twitter/follow/CreateRoboCup?label=Masato%20Kubotera&style=social"></a>
 
 <h1>
   License
