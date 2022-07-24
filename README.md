@@ -27,7 +27,7 @@
 
 <h1>What is SUSTAINA-OP?</h1>
 
-SUSTAINA-OP is a 6th generation kid-sized autonomous mobile robot for RoboCup Humanoid Leadge developed by CIT Brains.
+SUSTAINA-OP is a 6th generation KidSize autonomous mobile robot for RoboCup Humanoid Leadge developed by CIT Brains.
 
 This robot is the successor to the 5th generation "GankenKun"<sup>*</sup> and all of its hardware is available as an open platform.
 
@@ -39,6 +39,11 @@ The robot is being developed with two main objectives in mind.
 1. The robot should have high rigidity and durability and be difficult to break.
 
 2. The robot should be easy to manufacture and maintain for long-term use.
+
+SUSTAINA-OP was officially adopted as a CIT Brains robot from RoboCup 2022 Thailand Bangkok and won <strong>1st place</strong><sup>*</sup> in the RoboCup Humanoid League KidSize at the same competition.
+
+<p><small>*Results for RoboCup 2022 is <a href="https://humanoid.robocup.org/hl-2022/results/">here</a>.</small></p>
+
 </p>
 
 <h1>
