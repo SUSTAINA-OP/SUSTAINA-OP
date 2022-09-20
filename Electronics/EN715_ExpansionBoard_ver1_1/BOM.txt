@@ -1,0 +1,19 @@
+Partlist exported from C:/Users/Masato/Desktop/SUSTAINA-OP/electronics/EN715_ExpansionBoard_ver1_1/EN715_ExpansionBoard_ver1_1.sch at 2022/09/21 1:35
+
+Qty Value               Device              Package        Parts                                   Description                
+6                       LEDSML0603          SML0603        LED1, LED2, LED3, LED4, LED5, LED6      LED                        
+1   0.01u               C-USC0603           C0603          C4                                      CAPACITOR, American symbol 
+3   10u                 C-USC0603           C0603          C1, C2, C3                              CAPACITOR, American symbol 
+4   1k                  R-US_R0603          R0603          R1, R3, R4, R5                          RESISTOR, American symbol  
+1   2.7k                R-US_R0603          R0603          R2                                      RESISTOR, American symbol  
+2   22p                 C-USC0603           C0603          C5, C6                                  CAPACITOR, American symbol 
+1   2X10                2X10                2X10           CH1                                                                
+5   BLM18SD220SN1D      BLM18SD220SN1D      BLM18SD220SN1D FL1, FL2, FL3, FL4, FL5                                            
+10  CG0603MLC-05E       CG0603MLC-05E       CG0603MLC-05E  D1, D2, D3, D4, D5, D6, D7, D8, D9, D10                            
+1   FA238V_12.000000MHZ FA238V_12.000000MHZ FA238V         CR1                                                                
+1   FE1.1S              FE1.1S              FE1.1S         IC1                                                                
+1   MF-MSMF050          MF-MSMF050          MF-MSMF050     F1                                                                 
+1   MINI_USB_B_SMD      MINI_USB_B_SMD      MINI_USB_B_SMD USB1                                                               
+1   MPU9250_MODULE      MPU9250_MODULE      MPU9250_MODULE M1                                                                 
+8   SHORTLAND           SHORTLAND           SHORTLAND      JP1, JP2, JP3, JP4, JP5, JP6, JP7, JP8                             
+4   USB_A_X1_SMD        USB_A_X1_SMD        USB_A_X1_SMD   USB2, USB3, USB4, USB5                                             
