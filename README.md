@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Masato Kubotera">
-  <meta name="description" content="SUSTAINA-OP is the open platform humanoid robot designed and developed mainly by Masato Kubotera for RoboCup Humanoid League.">
+  <meta name="description" content="SUSTAINA-OP is the open hardware platform humanoid robot designed and developed mainly by Masato Kubotera for RoboCup Humanoid League.">
 </head>
 <body>
   <p align="center">
-    Open Platform Humanoid Robot
+    Open Hardware Platform Humanoid Robot
   </P>
 
   <h1 align="center">
@@ -26,7 +26,7 @@
 
   <p align="center">
     <img src="https://user-images.githubusercontent.com/53966390/179649825-2e39dd2a-3ecc-4411-954d-acd4d6080c3b.png" width="640px"><br>
-    SUSTAINA-OP Ver1.0<br>
+    SUSTAINA-OP Ver. 1.0<br>
     Photographed on July 16th, 2022 at RoboCup2022 Thailand
   </P>
 
@@ -69,7 +69,7 @@
   <p>
     Information about SUSTAINA can be found on the <a href="https://github.com/citbrains/SUSTAINA-OP/wiki">wiki</a>.<br>
     If you have any questions, please contact the designer, Masato Kubodera, via E-mail<sup>*1</sup> or Twitter<sup>*2</sup>.<br><br>
-    <small>*1 E-mail : <a href="mailto:masatokubotera06@yahoo.co.jp?subject=Questions about SUSTAINA-OP">masatokubotera06@yahoo.co.jp</a></small><br>
+    <small>*1 E-mail : <a href="mailto:masatokubotera06@yahoo.co.jp">masatokubotera06@yahoo.co.jp</a></small><br>
     <small>*2 Twitter : </a><a href="https://twitter.com/CreateRoboCup"><img src="https://img.shields.io/twitter/follow/CreateRoboCup?label=Masato%20Kubotera&style=social"></a>
   </p>
 
@@ -78,8 +78,8 @@
   </h1>
 
   <p>
-    SUSTAINA-OP by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a>, <a href="https://github.com/citbrains">CIT Brains</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
-    Examples of attribution : <code>"SUSTAINA-OP" by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a>, <a href="https://github.com/citbrains">CIT Brains</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</code>
+    SUSTAINA-OP by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
+    Examples of attribution : <code>"SUSTAINA-OP" by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</code>
   </p>
 
   <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="160px">
