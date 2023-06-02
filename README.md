@@ -1,96 +1,62 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Masato Kubotera">
-  <meta name="description" content="SUSTAINA-OP is the open hardware platform humanoid robot designed and developed mainly by Masato Kubotera for RoboCup Humanoid League.">
+  <meta name="description" content="SUSTAINA-OP<sup>TM</sup> is the open hardware platform humanoid robot designed and developed mainly by Masato Kubotera for RoboCup Humanoid League.">
 </head>
+
 <body>
-  <p align="center">
-    Open Hardware Platform Humanoid Robot
-  </P>
-
   <h1 align="center">
-    SUSTAINA-OP
+    SUSTAINA-OP<sup>TM</sup>
   </h1>
-
   <p align="center">
-    <a href="https://github.com/citbrains/SUSTAINA-OP/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg"></a>
+    Open Hardware Platform Humanoid Robot for the RoboCup Humanoid League KidSize
   </P>
-
   <p align="center">
-    Designed by Masato Kubotera
-    <a href="https://github.com/MasatoKubotera"><img src="https://img.shields.io/github/followers/MasatoKubotera?label=&style=social"></a>
-    <a href="https://twitter.com/CreateRoboCup"><img src="https://img.shields.io/twitter/follow/CreateRoboCup?label=&style=social"></a>
+    <image src="https://github.com/SUSTAINA-OP/.github/assets/53966390/7b5091e7-2190-424d-ae3a-13d850ef4622" width="640px" align="center"><br>
+    SUSTAINA-OP<sup>TM</sup> RoboCup2022 Edition 
   </P>
-
-  <p align="center">
-    <img src="https://user-images.githubusercontent.com/53966390/179649825-2e39dd2a-3ecc-4411-954d-acd4d6080c3b.png" width="640px"><br>
-    SUSTAINA-OP Ver. 1.0<br>
-    Photographed on July 16th, 2022 at RoboCup2022 Thailand
   </P>
-
-  <h1>
-    What is SUSTAINA-OP?
-  </h1>
-
+  <h2>
+    What is SUSTAINA-OP<sup>TM</sup> ?
+  </h2>
   <p>
-    SUSTAINA-OP is a 6th generation KidSize autonomous mobile robot for RoboCup Humanoid Leadge, developed and provided mainly by Masato Kubotera of CIT Brains.<br>
-    This robot is the successor to the 5th generation "GankenKun"<sup>*</sup> and all of its hardware is available as an open platform.<br>
-    <small>* Click <a href="https://github.com/citbrains/OpenPlatform">here</a> for Gankenkun's open platform.</small><br><br>
-    The robot is being developed with two main objectives in mind.
-    <ol>
-      <li>The robot should have high rigidity and durability and be difficult to break.</li>
-      <li>The robot should be easy to fabricate and maintain for a long period of time.</li>
-    </ol> 
-    SUSTAINA-OP was officially adopted as a CIT Brains robot from RoboCup 2022 Thailand Bangkok and won <strong>1st place</strong><sup>*</sup> in the RoboCup Humanoid League KidSize at the same competition. In the nine games played at RoboCup 2022, there were no exits due to hardware failure.<br>
-    <small>*Results for RoboCup 2022 is <a href="https://humanoid.robocup.org/hl-2022/results/">here</a>.</small>
+    SUSTAINA-OP<sup>TM</sup> is the open hardware platform for the RoboCup Humanoid League KidSize. The robot was developed as a humanoid hardware platform with the objective of overcoming the barrier of high hardware development costs associated with participation in the RoboCup Humanoid League. <br>
+    SUSTAINA-OP<sup>TM</sup> is designed and published by Masato Kubotera of the Humanoid League Kid Size Team "CIT Brains" in Japan. The kinematic structure of SUSTAINA-OP<sup>TM</sup> is based on <a href="https://github.com/citbrains/OpenPlatform">GankenKun</a>, the 5th generation robots from CIT Brains used for RoboCup 2017-2019. The actual robots of SUSTAINA-OP<sup>TM</sup> is made by the members of CIT Brains and used for various software and research developments.<br>
+    SUSTAINA-OP<sup>TM</sup> was officially adopted as the robots of CIT Brains from RoboCup 2022 and won first place* in the RoboCup Humanoid League KidSize at the same competition.
   </p>
-
-  <h1>
+  <h2>
     Development Environments
-  </h1>
-
+  </h2>
   <p>
-    The main development environment is as follows.<br>
-    <ul>
-      <li>Autodesk Inventor 2022</li>
-      <li>Autodesk Inventor CAM Ultimate 2022</li>
-      <li>Autodesk EAGLE 9.6.2</li>
-      <li>Arduino IDE 1.8.19</li>
-    </ul>    
-    For other development environments and software used here : <a href="https://github.com/citbrains/SUSTAINA-OP/wiki/Software-used">Software used</a>
+      This product is designed with the following software.
+      <ul>
+          <li>Autodesk Inventor 2022</li>
+      </ul>
   </p>
-
-  <h1>
-    More information / Contact
-  </h1>
-
+  <h2>
+    Acknowledgements
+  </h2>
   <p>
-    Information about SUSTAINA can be found on the <a href="https://github.com/citbrains/SUSTAINA-OP/wiki">wiki</a>.<br>
-    If you have any questions, please contact the designer, Masato Kubodera, via E-mail<sup>*1</sup> or Twitter<sup>*2</sup>.<br><br>
-    <small>*1 E-mail : <a href="mailto:masatokubotera06@yahoo.co.jp">masatokubotera06@yahoo.co.jp</a></small><br>
-    <small>*2 Twitter : </a><a href="https://twitter.com/CreateRoboCup"><img src="https://img.shields.io/twitter/follow/CreateRoboCup?label=Masato%20Kubotera&style=social"></a>
-  </p>
-
-  <h1>
-    License
-  </h1>
-
-  <p>
-    SUSTAINA-OP by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
-    Examples of attribution : <code>"SUSTAINA-OP" by <a href="https://github.com/MasatoKubotera">Masato Kubotera</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</code>
-  </p>
-
-  <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="160px">
-
-  <h1>
-    3D model viewer
-  </h1>
-
-  <p>
-    View and manipulate 3D models in your browser using Autodesk Viewer.<br>
-    Click <a href="https://citbrains.github.io/SUSTAINA-OP/autodesk_viewer.html">here</a> to access.
-  </p>
+    SUSTAINA-OP<sup>TM</sup> is a robot that incorporates the know-how accumulated by past CIT Brains members participating in the RoboCup Humanoid League. Many CIT Brains members cooperated with us in the actual building of the robots. I also referred to many open-source hardware in designing and developing the robot. I would like to thank these people.
+  </P>
+  <h2>Contact</h2>
+    <p>
+        If you have any questions, please contact the designer of this product, Masato Kubodera, by <a href="mailto:masato.kubotera@sustaina-op.com">e-mail</a>.<br>
+        E-mail: <a href="mailto:masato.kubotera@sustaina-op.com">masato.kubotera@sustaina-op.com</a>
+    </p>
+  <h2>License Information</h2>
+    <p>
+        This product is open source. Please review the <a href="/LICENSE">LICENSE</a> for license information.<br>
+        <br>
+        This product by Masato Kubotera is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+    </p>
+  <h3>Request</h3>
+    <p>
+      SUSTAINA-OP<sup>TM</sup> is a hardware platform humanoid robot whose design data, etc. are open-sourced as much as possible to advance the field of robotics, such as RoboCup Humanoid League.<br>
+      Therefore, in addition to the license When publishing artifacts using this platform, I would like to request to clearly state that this platform has been used.<br>
+      Also, I would like to hope that the artifacts will also be released as open source for the advancement of robotics.
+      </p>
 </body>
 </html>
