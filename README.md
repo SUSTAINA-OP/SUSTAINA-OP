@@ -54,9 +54,17 @@
     </p>
   <h3>Request</h3>
     <p>
-      SUSTAINA-OP<sup>TM</sup> is a hardware platform humanoid robot whose design data, etc. are open-sourced as much as possible to advance the field of robotics, such as RoboCup Humanoid League.<br>
-      Therefore, in addition to the license When publishing artifacts using this platform, I would like to request to clearly state that this platform has been used.<br>
-      Also, I would like to hope that the artifacts will also be released as open source for the advancement of robotics.
+      <ul>
+        <li>
+          SUSTAINA-OP<sup>TM</sup> is a hardware platform humanoid robot whose design data, etc. are open-sourced as much as possible to advance the field of robotics, such as RoboCup Humanoid League.<br>
+          Therefore, in addition to the license When publishing artifacts using this platform, I would like to request to clearly state that this platform has been used.<br>
+          Also, I would like to hope that the artifacts will also be released as open source for the advancement of robotics.
+        </li>
+        <li>
+          The developer of SUSTAINA-OP<sup>TM</sup> is currently at the Chiba Institute of Technology.
+          Anyone enrolled at or associated with the Chiba Institute of Technology who wishes to use SUSTAINA-OP<sup>TM</sup> deliverables for research, distribution, etc., must inquire before using the deliverables.
+        </li>
+      </ul>      
       </p>
 </body>
 </html>
